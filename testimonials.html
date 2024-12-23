@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+            color: white;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+        }
+
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .testimonial {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .testimonial:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .testimonial img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: 4px solid #ffffff;
+        }
+
+        .testimonial h3 {
+            margin: 0 0 15px;
+            color: #f7f7f7;
+        }
+
+        .testimonial p {
+            margin: 0;
+            color: #e0e0e0;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .testimonial {
+                width: 100%;
+            }
+
+            .testimonial p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>What Our Clients Say</h1>
+        <div class="testimonials">
+            <div class="testimonial">
+                <img src="raju.jpg" alt="Client photo">
+                <h3>Raju Rastogi</h3>
+                <p>"The event was amazing! Everything was perfectly organized, and our guests were impressed. Highly recommend!"</p>
+            </div>
+            <div class="testimonial">
+                <img src="rancho.jpg" alt="Client photo">
+                <h3>Rancho</h3>
+                <p>"A wonderful experience from start to finish. The team exceeded our expectations in every way."</p>
+            </div>
+            <div class="testimonial">
+                <img src="farhan.webp" alt="Client photo">
+                <h3>Farhan Qureshi</h3>
+                <p>"Professional, creative, and detail-oriented. Our event was a huge success thanks to their expertise."</p>
+            </div>
+            <div class="testimonial">
+                <img src="manas.jpeg" alt="Client photo">
+                <h3>Manas</h3>
+                <p>"We couldn't have asked for a better event planning team. Everything was flawless and stress-free."</p>
+            </div>
+            <div class="testimonial">
+                <img src="ayush.jpg" alt="Client photo">
+                <h3>Ayush kumar</h3>
+                <p>"Outstanding service! They paid attention to every detail and made sure our event was unforgettable."</p>
+            </div>
+            <div class="testimonial">
+                <img src="aniket.jpg" alt="Client photo">
+                <h3>Aniket</h3>
+                <p>"Absolutely fantastic team! They made our vision come to life and ensured everything went smoothly."</p>
+            </div>
+            <div class="testimonial">
+                <img src="vinay.jpg" alt="Client photo">
+                <h3>Vinay</h3>
+                <p>"From start to finish, the process was seamless. Their attention to detail is unmatched!"</p>
+            </div>
+            <div class="testimonial">
+                <img src="surya.jpeg" alt="Client photo">
+                <h3>Surya</h3>
+                <p>"Thank you for making our day so special. The organization was impeccable!"</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
